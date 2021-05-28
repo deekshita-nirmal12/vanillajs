@@ -3,19 +3,28 @@
 
 * {
     box-sizing: border-box;
+   
 }
 :root{
     
     --width-break: 600px;
+    
 }
 body{
     font-family: 'Dancing Script', cursive;
     margin:0px;
+    overflow:scroll;
+   
 }
+
+
 
 hr{
     margin: 2rem 0rem;
+    /* overflow:scroll; */
 }
+
+
 
 .navbar{
     font-size: 2rem;
@@ -25,7 +34,8 @@ hr{
      background-color: #FCD34D;
      box-sizing: border-box;
 
-}
+    }
+ 
 
 .textarea {
     /* width: 80%;
@@ -124,5 +134,6 @@ hr{
         margin:auto;
 
     }
+
 
    
